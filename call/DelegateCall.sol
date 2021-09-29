@@ -13,6 +13,19 @@ contract B{
     }
 
 }
+
+contract B2{
+    uint public num;
+    address public sender;
+    uint public value;
+
+    function setVars(uint _num) public payable{
+        num = 2*_num;
+        sender=msg.sender;
+        value = msg.value;
+    }
+
+}
 contract A{
     uint public num;
     address public sender;
