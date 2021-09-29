@@ -62,12 +62,12 @@ Notes:
         );
          emit Response(success, data);
 ```
-
+```
 output: "args": { "0": true, "1": "0x", "success": true, "data": "0x" } 
-
+```
 3. Normal function calls
 Data is what is returned from foo function
-
+```
 Output: "args": { "0": true, "1": "0x000000000000000000000000000000000000000000000000000000000000007c", "success": true, "data": "0x000000000000000000000000000000000000000000000000000000000000007c" } }
-
+```
 
